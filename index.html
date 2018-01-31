@@ -1,0 +1,47 @@
+<html lang="en" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A simple Angular 1 boilerplate with Web3 integration">
+    
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="libs/angular-includes/angular-material-1.1.0.min.css">
+    <link rel="stylesheet" href="libs/googleapis/material-icons.css">
+    <link rel="stylesheet" href="libs/googleapis/roboto.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>5e Homebrew by ChicoBitcoinJoe</title>
+    
+</head>
+<body ng-app="app" ng-controller="AppController">
+    
+    <div class="scrollable" layout="row" layout-fill>
+        <div flex></div>
+        <div ng-view></div>
+        <div flex></div>
+    </div>
+
+    <!-- Angular + Material Libraries -->
+    <script src="libs/angular-includes/angular-1.5.5.min.js"></script>
+    <script src="libs/angular-includes/angular-aria-1.5.5.min.js"></script>
+    <script src="libs/angular-includes/angular-animate-1.5.5.min.js"></script>
+    <script src="libs/angular-includes/angular-material-1.1.0.min.js"></script>
+    <script src="libs/angular-includes/angular-route-1.5.5.min.js"></script>
+    
+    <!-- Application Files  -->
+    <script src="app.js"></script>
+    
+    <!-- View Controllers -->
+    <script src="views/home/home.controller.js"></script>
+    <script src="views/print/print.controller.js"></script>
+    
+    <!-- Directives Controllers -->
+    <script src="directives/header/header.directive.js"></script>
+    <script src="directives/personalities/personalities.directive.js"></script>
+    <script src="directives/ability/ability.directive.js"></script>
+    <script src="directives/stats/stats.directive.js"></script>
+    <script src="directives/footer/footer.directive.js"></script>
+
+</body>
+</html>

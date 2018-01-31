@@ -1,0 +1,86 @@
+body {
+    -webkit-print-color-adjust: exact;
+    background-color: rgb(100, 100, 100);
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.double-border {
+    border: 3px double rgba(0,0,0,0.33);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.paper-sized {
+    background-color: white !important; 
+    min-width: 8.5in !important; 
+    max-width: 8.5in !important; 
+    min-height: 11in !important;
+    max-height: 11in !important;
+    padding: 0.25in !important;
+}
+
+.scrollable {
+    overflow: auto;
+}
+
+@page {
+    margin: 0;
+}
+
+.circle {
+    float: left;
+    border: 1px solid black;
+    border-radius: 4.5px;
+    width: 9px !important;
+    height: 9px !important;
+    background-color: white;
+    margin-left: 0px;
+}
+
+.diamond {
+    float: left;
+    border: 1px solid black;
+    width: 8px !important;
+    height: 8px !important;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.input-field {
+    font-size: 10px;
+    /*text-transform: uppercase;*/
+    margin: 0px 2px;
+    height: 44px;
+}
+
+.background {
+    background-color: rgba(0,0,0,.12);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+line {
+    margin: 0px 4px; 
+    height: 14px; 
+    border-bottom: 1px solid rgba(0,0,0,0.33);
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+tab {
+    display: inline-block;
+    margin-left: 32px;
+}
